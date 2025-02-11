@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "firbasespeed"
-include(":app")
+rootProject.name = "My Application"
+include(":automotive")
  
