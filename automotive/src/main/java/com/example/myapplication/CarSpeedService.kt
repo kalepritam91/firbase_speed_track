@@ -34,7 +34,7 @@ class CarSpeedService(context: Context?)  {
                     val speed = carPropertyValue.getValue() as Float
                     val speedKmh = speed * 3.6f
 
-                    if (speedKmh > SpeedLimit) {
+                    if (speedKmh > mSpeedLimit) {
                         // callAPI
                         (mContext as TripActivity).notifyOverSpeed(speedKmh.toInt())
                     }
