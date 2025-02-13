@@ -8,5 +8,6 @@ data class TripResponse(
     val distance: Double,  // in kilometers
     val duration: Double,  // in minutes
     val averageSpeed: Double,  // in km/h
-    val speedLimit: Double,  // in km/h
+    val speedLimit: Double, // in km/hrs
+    val channel_id: String
 )
