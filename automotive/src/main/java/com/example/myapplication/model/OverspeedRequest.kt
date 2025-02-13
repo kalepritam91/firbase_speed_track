@@ -3,7 +3,8 @@ package com.example.myapplication.model
 data class OverSpeedRequest(
     val user_id: String,
     val trip_id: String,
-    var speed: String
+    var speed: String, 
+    var channel_id: String
 )
 
 data class OverSpeedResponse(
